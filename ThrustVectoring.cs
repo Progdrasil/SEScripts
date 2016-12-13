@@ -16,7 +16,7 @@ using VRage.Game.ObjectBuilders.Definitions;
 
 namespace SpaceEngineers
 {
-    public sealed class Program : MyGridProgram
+    public sealed class ThrustProgram : MyGridProgram
     {
         //=======================================================================
         //////////////////////////BEGIN//////////////////////////////////////////
@@ -347,6 +347,7 @@ namespace SpaceEngineers
             write("Avg Efficiency: " + Math.Round(100 * totalCurrMaxThrust / totalMaxThrust, 0) + "%");
 
         }
+
         public static T Clamp<T>(T value, T max, T min) where T : System.IComparable<T>
         {
             T result = value;

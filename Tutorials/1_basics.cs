@@ -17,7 +17,7 @@ using VRage.Game.ObjectBuilders.Definitions;
 
 namespace SpaceEngineers
 {
-    public sealed class Program : MyGridProgram
+    public sealed class BasicsProgram : MyGridProgram
     {
         //=======================================================================
         //////////////////////////BEGIN//////////////////////////////////////////
