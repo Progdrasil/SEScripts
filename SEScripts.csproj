@@ -72,6 +72,9 @@
   <ItemGroup>
     <Compile Include=".Template.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThrustVectoring.cs" />
+    <Compile Include="Tutorials\1_basics.cs" />
+    <Compile Include="Tutorials\2_PowerDisplay.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
